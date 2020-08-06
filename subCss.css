@@ -1,0 +1,96 @@
+  /*
+   ****
+   **** css code for submit_page.html
+   ****
+   */ 
+
+    /*
+     **** body to coordinates all of the page
+    */
+
+body {
+     background-image: url('Background.jpg');
+    background-size: 3000px 3000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+    color: #000;
+    font: 14px Arial;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+         /*
+         *** subtabel coordinates the table
+         */
+                
+            .subtabel{
+              
+                 border-color: #5f9050;
+              border-radius: 50px; 
+                 border-width: 12px;
+                padding: 40px 30px;
+              border-style: groove;
+              border-style: inset;
+            text-align: ="center";    
+             font: 17px ; 
+             
+            }
+            
+            /* 
+            **** coordinates theinput fields 
+            */
+input[type=text], input[type=password] , input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 30px;    
+  box-sizing: border-box;
+    
+}
+            
+            .label4txt{
+             padding: 12px 20px;   
+                
+            }
+            
+           /* 
+            **** coordinates the bottom
+            */
+            #subbott {
+  background-color: #4CAF50;
+  width: 100%;
+        
+  text-align: center;              
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: #f2e9e9;
+   border-radius: 30px;             
+  cursor: pointer;
+
+}
+            
+  #subbott:hover {
+  opacity: 0.8;
+}   
+
+            /* 
+            **** coordinates the sign in image
+            */
+            img{
+                
+            position: relative;
+            top: 50%;
+            left: 20%; 
+            width:200px;
+            height:150px;
+            padding: 20px;
+            border: red;
+            border-radius: 50px;   
+                
+            
+            }
+         
